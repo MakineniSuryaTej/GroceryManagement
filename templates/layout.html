@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{url_for('static',filename='/css/style.css')}}">
+        <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+        
+        <!-- social link-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Scripts -->
+        
+        <title>Seva Bharathi Vijayawada</title>
+        <link rel="shortcut icon" href="../static/images/logo.webp" type="image/jpg">
+        <!--seo link-->
+        <!-- Pixel Code for https://widgets.entireweb.com/ -->
+        <script async src="https://widgets.entireweb.com/pixel/9kn32aibyolwpaja15l4xt8rhvckgk6y"></script>
+        <!-- END Pixel Code -->
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header style7">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <a class="navbar-brand" href="#"><img src="../static/images/logoo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					    <li class="nav-item active">
+					    	<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" href="#">Categories</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+					    </li>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0" style="padding-right: 10px;">
+                        <input class="form-control mr-sm-0" type="search" placeholder="Search for goods" style="width: 300px;">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" >Search</button>
+                        <a href="#" style="padding-left: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </a>
+                        </svg>
+				    </form>
+			  	</div>
+			</nav>
+			<br><br><br><br>
+			<nav class="top-bar">
+	  			<div class="container">
+	  				<div class="top-bar-left">
+	  					<div class="header-message">
+	  						Welcome to Grocery Store
+	  					</div>
+	  				</div>
+	  				<div class="top-bar-right">
+	  					<ul class="header-user-links">
+	  						<li>
+	  							<a href="login.html">Login or Register</a>
+	  						</li>
+	  					</ul>
+	  				</div>
+	  			</div>
+	  		</nav>
+	  	</header>
+        <!-- Header -->
+        {% block body %}
+        {% endblock %}
+
+
+        
+
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>

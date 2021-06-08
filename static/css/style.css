@@ -1,0 +1,297 @@
+/*=================================================HEADER STARTS===========================================*/
+.navbar{
+	background-color: #8eb359;
+}
+.top-bar{
+	background-color: black;
+	padding: 12px 0;
+	color: #fff;
+}
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}}
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.top-bar-left {
+    display: inline-block;
+    line-height: 48px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.top-bar-right {
+    display: inline-block;
+    float: right;
+}
+.top-bar .header-user-links {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding-left: 15px;
+}
+.top-bar .header-user-links a {
+    line-height: 48px;
+    color: #fff;
+}
+div{
+	display: block;
+}
+/*==================================================HEADER ENDS============================================*/
+/*=================================================FOOTER STARTS===========================================*/
+
+/*==================================================FOOTER ENDS============================================*/
+/*===============================================CONTENT 1 STARTS==========================================*/
+.home-slider-banner{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666;
+  box-sizing: border-box;
+  margin-bottom: 33px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.carousel-item img{
+	opacity: 0.7;
+}
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.carousel-title{
+  font-size: 350%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #28282B;
+}
+.carousel-subtitle{
+  font-size: 150%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Libre Baskerville", serif;
+  color: #000;
+}
+.carousel-caption a.btn{
+  margin-top: 30px;
+  color: orange;
+  background-color: #1f76bd;
+}
+@media (max-width: 992px){
+.carousel-caption .btn {
+    margin-top: 15px;
+}}
+@-webkit-keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+.animated {
+  visibility: visible;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.slow {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+/*================================================CONTENT 1 ENDS===========================================*/
+/*===============================================CONTENT 2 STARTS==========================================*/
+/*================================================CONTENT 2 ENDS===========================================*/
+/*===============================================CONTENT 3 STARTS==========================================*/
+/*================================================CONTENT 3 ENDS===========================================*/
+/*===============================================CONTENT 4 STARTS==========================================*/
+.item-banner.style17 .inner{
+	background-image: url("../images/banner-home-15.jpg");
+  width: 150%;
+}
+.item-banner.style17 .banner-content {
+    padding-top: 48px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.item-banner.style17 .description {
+    margin-bottom: 15px;
+}
+.item-banner .description {
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+}
+.item-banner.style17 .banner-price {
+    font-size: 16px;
+    color: #888;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    margin-bottom: 22px;
+}
+.item-banner.style17 .number-price {
+    font-size: 30px;
+    color: #8eb359;
+    font-weight: 600;
+    position: relative;
+}
+.item-banner .button {
+    color: #000;
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+    overflow: hidden;
+    font-size: 16px;
+}
+.item-banner .inner{
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+    background-color: #f5f5f5;   
+}
+/*================================================CONTENT 4 ENDS===========================================*/
+/*===============================================CONTENT 5 STARTS==========================================*/
+/*================================================CONTENT 5 ENDS===========================================*/
+/*===============================================CONTENT 6 STARTS==========================================*/
+/*================================================CONTENT 6 ENDS===========================================*/
