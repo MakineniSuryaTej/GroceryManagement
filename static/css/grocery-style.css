@@ -9288,35 +9288,6 @@ iframe {
 	border-radius: 30px;
 	letter-spacing: 0.1em;
 }
-.footer .gnash-socials .socials {
-	margin: 0;
-	padding: 0;
-}
-.footer .gnash-socials li {
-	list-style: none;
-	display: inline-block;
-	font-size: 23px;
-	color: #555555;
-}
-.footer .gnash-socials li:first-child {
-	padding-left: 0;
-}
-.footer .gnash-socials li a {
-	border-radius: 50%;
-	min-width: 100px;
-	height: 45px;
-	font-size: 26px;
-	line-height: 45px;
-	text-align: center;
-	display: inline-block;
-	position: relative;
-	z-index: 1;
-	margin-bottom: 10px;
-}
-.footer .gnash-socials li a i {
-	z-index: 1;
-	position: relative;
-}
 .footer .border-custom span {
 	margin-top: 45px;
 }
