@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('grocery-layout.html')
+    return render_template('grocery-home.html')
 
 @app.route('/grocery-login')
 def login():
