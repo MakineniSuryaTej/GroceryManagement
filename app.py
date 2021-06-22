@@ -6,5 +6,9 @@ app = Flask(__name__)
 def home():
     return render_template('grocery-layout.html')
 
+@app.route('/grocery-login')
+def login():
+    return render_template('grocery-login.html')
+
 if __name__=='__main__':
     app.run(debug=True)
